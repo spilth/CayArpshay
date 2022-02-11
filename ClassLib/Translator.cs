@@ -6,7 +6,7 @@ public static class Translator {
     public static string Translate(string english) {
         string pigLatin;
 
-        if (Vowels.Contains(english[0].ToString())) {
+        if (Vowels.Contains(english[0].ToString().ToLower())) {
             pigLatin = $"{english}way";
         } else {
             var firstVowelIndex = -1;
@@ -18,10 +18,18 @@ public static class Translator {
                 break;
             }
 
-            pigLatin = english[firstVowelIndex..] + english[..firstVowelIndex] + "ay";
+            pigLatin = english[firstVowelIndex..] + english[..firstVowelIndex].ToLower() + "ay";
+
+            if (IsCapitalized(english)) {
+                pigLatin = pigLatin[0].ToString().ToUpper() + pigLatin[1..];
+            }
         }
 
         return pigLatin;
+    }
+
+    private static bool IsCapitalized(string english) {
+        return string.Equals(english[0].ToString(), english[0].ToString().ToUpper());
     }
 }
 
