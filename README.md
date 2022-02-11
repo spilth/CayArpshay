@@ -10,5 +10,5 @@ To check out the project, run the tests and run the CLI:
 $ git clone git@github.com:spilth/CayArpshay.git
 $ cd CayArpshay
 $ dotnet test Tests
-$ ./Console/bin/Debug/net6.0/piglatin
+$ ./Console/bin/Debug/net6.0/piglatin apple
 ```
