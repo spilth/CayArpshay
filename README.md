@@ -34,6 +34,6 @@ $ dotnet run --project WebApi
 Then in a new terminal tab/window run the following:
 
 ```bash
-$ open https://localhost:7068/swagger/index.html
+$ open https://localhost:7068/swagger/
 $ curl -X GET "https://localhost:7068/Translation?english=apple" -H "accept: text/plain"
 ```
