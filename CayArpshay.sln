@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{4DAF51D9-346C-404D-B1DE-E3E043436412}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{46094A94-C9D7-4107-AAF7-88A3C80AC21B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{4DAF51D9-346C-404D-B1DE-E3E043436412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DAF51D9-346C-404D-B1DE-E3E043436412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DAF51D9-346C-404D-B1DE-E3E043436412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46094A94-C9D7-4107-AAF7-88A3C80AC21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46094A94-C9D7-4107-AAF7-88A3C80AC21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46094A94-C9D7-4107-AAF7-88A3C80AC21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46094A94-C9D7-4107-AAF7-88A3C80AC21B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
